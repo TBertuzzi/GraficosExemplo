@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+               xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" 
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                mc:Ignorable="d"
+             Padding="0,40,0,0"
+             xmlns:local="clr-namespace:GraficosExemplo" x:Class="GraficosExemplo.MainPage">
+    
+    
+
+            <!-- <microcharts:ChartView x:Name="chartView" />-->
+    
+      <ScrollView>
+        <StackLayout Spacing="10" BackgroundColor="#EEEEEE">
+            <Label Margin="20,20,20,20" Text="Vendas de Consoles Global  - Atualizado Abril 2019" FontAttributes="Bold" FontSize="Medium"></Label>
+            <microcharts:ChartView x:Name="chart1" HeightRequest="300" BackgroundColor="White" />
+            <microcharts:ChartView x:Name="chart2" HeightRequest="300" BackgroundColor="White" />
+            <microcharts:ChartView x:Name="chart3" HeightRequest="300" BackgroundColor="White" />
+            <microcharts:ChartView x:Name="chart4" HeightRequest="300" BackgroundColor="White" />
+            <microcharts:ChartView x:Name="chart5" HeightRequest="300" BackgroundColor="White" />
+            <microcharts:ChartView x:Name="chart6" HeightRequest="300" BackgroundColor="White" />
+        </StackLayout>
+    </ScrollView>
+
+    
+</ContentPage>
